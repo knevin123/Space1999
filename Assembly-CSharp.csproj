@@ -52,7 +52,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Boid.cs" />
+     <Compile Include="Assets\CameraContoller.cs" />
      <Compile Include="Assets\eagleSpawner.cs" />
+     <Compile Include="Assets\OffsetPursue.cs" />
+     <Compile Include="Assets\Seek.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
