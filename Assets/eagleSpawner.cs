@@ -12,6 +12,7 @@ public class eagleSpawner : MonoBehaviour {
 		
 	}
 	void Awake(){
+		//initialise target positions for the follower ships
 		Vector3 targetpos=new Vector3(0,0,0);
 		Vector3 targetpos2=new Vector3(0,0,0);
 		for (int i = 0; i < followers; i++) {
